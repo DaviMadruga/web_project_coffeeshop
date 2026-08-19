@@ -7,7 +7,6 @@
     <meta name="author" content="Davi Madruga" />
     <meta name="keywords" content="café, biblioteca, Triple Peaks" />
 
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <link rel="icon" href="favicon.ico" />
 
@@ -43,7 +42,7 @@
               <a class="nav__link" href="#reservation">Reservar uma mesa</a>
             </li>
             <li>
-              <a class="nav__link" href="#">Contatos</a>
+              <a class="nav__link" href="#footer">Contatos</a>
             </li>
           </ul>
         </nav>
@@ -140,7 +139,7 @@
         </section>
 
         <section class="reservation" id="reservation">
-          <p class="reservation__title">Reservar uma mesa</p>
+          <h2 class="reservation__title">Reservar uma mesa</h2>
           <form class="form reservation__form" action="#" method="post">
             <fieldset class="form__fieldset">
               <label class="form__label">
@@ -174,7 +173,42 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__circle"></div>
+        <div class="footer__content">
+          <img
+            class="footer__logo"
+            src="/images/logo_coffeeshop_light.svg"
+            alt="Logo do Triple Espresso"
+          />
+          <div class="footer__social">
+            <p class="footer__social-heading">Mídia social</p>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="/images/facebook_white.svg"
+                    alt="Logo do Facebook"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="/images/instagram_white.svg"
+                    alt="Logo do Instagram"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2026 Davi Madruga</p>
+      </footer>
     </div>
   </body>
 </html>
