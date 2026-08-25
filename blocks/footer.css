@@ -7,14 +7,11 @@
 }
 
 .footer__content {
-  position: relative;
   display: flex;
   justify-content: space-between;
 }
 
 .footer__logo {
-  position: relative;
-
   width: 105px;
   height: 39px;
 
